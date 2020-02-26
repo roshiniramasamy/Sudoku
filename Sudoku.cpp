@@ -1,3 +1,17 @@
+#include <iostream>
+using namespace std;
+
+//global variables
+bool sign = false;
+int num[9][9];
+
+//functions
+void Input();
+void Output();
+bool Check(int n, int key);
+int DFS(int n);
+ 
+
 int main()
 {
     Input();
